@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/Homely.pem',
       ref: 'origin/master',
       repo: 'git@github.com:vives/tutorial-pt-2',
-      path: '/server/tutorial-pt-2',
+      path: '/home/ubuntu/tutorial-2',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
